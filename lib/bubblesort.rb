@@ -1,10 +1,11 @@
 class Bubblesort
 
   def sort_list(array)
-    if array [2, 1]
-      [1, 2]
-    else
+    if array == [] || array == array.sort
       array
+    elsif
+      array[0] > array[1]
+      array[0], array[1] = array[1], array[0]
     end
   end
 
