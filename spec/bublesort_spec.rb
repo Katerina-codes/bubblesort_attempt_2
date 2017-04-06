@@ -17,4 +17,9 @@ RSpec.describe Bubblesort do
     expect(bubblesort.sort_list([1, 2])).to eq([1, 2])
   end
 
+  it "returns [1, 2] if array is [2, 1]" do
+    bubblesort = Bubblesort.new
+    expect(bubblesort.sort_list([2, 1])).to eq([1, 2])
+  end
+
 end
